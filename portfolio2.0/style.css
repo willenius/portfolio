@@ -1,0 +1,58 @@
+body {
+    background-color: #1B3955;
+    color: #ededed;
+    margin: 0px;
+    padding 0px;
+    display: block;
+    font-family: "Bodoni Moda", serif;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h1 + p {
+    font-size: 1rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1B3955;
+}
+
+.header .logo {
+    color: #ededed;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: #ededed;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover{
+    color: lightblue;
+}
+
+.navbar {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    color: #ededed;
+    text-decoration: none;
+}
+
+
